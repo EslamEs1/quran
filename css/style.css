@@ -272,7 +272,7 @@ a {
 .landing .carousel-item img {
     width: 100%;
     /* Ensure the image fills the slider width */
-    height: 100%;
+    height: 600px;
     /* Ensure the image fills the slider height */
     object-fit: cover;
     /* Fill the image within the slider area while maintaining aspect ratio */
@@ -878,4 +878,97 @@ a {
     padding: 10px 20px;
     border-radius: 5px;
 
+}
+
+/* links-about-section */
+.links-about-section{
+    margin:20px 0;
+}
+
+.index-learn-tow .links-about-section a{
+    margin-right: 10px;
+    transition: var(--main-transition);
+
+
+}
+
+.index-learn-tow .links-about-section a:hover{
+    background-color: var(--main-color);
+
+}
+
+.index-learn-tow{
+    background-color: var(--second-color);
+}
+
+.index-learn-tow .main-title{
+    text-align: left;
+}
+
+.index-learn-tow .main-title::after{
+    margin: unset;
+}
+
+.join-thousands-of-students{
+    padding: 100px 20px;
+}
+
+.join-thousands-of-students img{
+    width: 200px;
+}
+
+.join-thousands-of-students p{
+    color: var(--main-color);
+    text-align: left;
+}
+
+.join-thousands-of-students .main-title{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.join-thousands-of-students .main-title::after{
+    margin: unset;
+}
+
+.join-thousands-of-students svg{
+    fill: var(--main-color);
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 767.98px) { 
+    .join-thousands-of-students p{
+    text-align: center;
+}
+
+    .join-thousands-of-students svg{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .join-thousands-of-students .main-title{
+        text-align: center;
+    }
+
+    .join-thousands-of-students .main-title::after{
+    margin: 0 auto;
+}
+
+
+}
+
+.about-our-mission{
+    background-color: #DFECFF;
+}
+
+.terms .item{
+    padding:30px;
+    margin: 30px 0;
+    box-shadow: 1px 1px 15px #d8d8d8;
+    border-radius: 10px;
+}
+
+.classes-tow{
+    background-color: #fff;
 }
