@@ -972,3 +972,94 @@ a {
 .classes-tow{
     background-color: #fff;
 }
+
+.quran-course{
+    background-color: var(--second-color);
+    padding:20px 0;
+}
+
+.quran-course h2{
+    color: var(--main-color);
+}
+.quran-course-item {
+    padding:60px 0;
+    text-align: center;
+}
+.quran-course-item img{
+    width:100%;
+
+}
+
+.quran-course-item span{
+    display: block;
+}
+
+.quran-course-item .enroll-now{
+    margin-bottom: 50px;
+    display: block;
+}
+
+.quran-course-item h6{
+    color: var(--main-color);
+}
+
+.quran-course-item a{
+    background-color: var(--three-color);
+    color: #fff;
+    padding:5px 0;
+}
+
+.landing-price{
+    background-color: var(--second-color);
+    padding:20px 0;
+}
+
+.landing-price img{
+    width: 100px;
+}
+
+.landing-price p{
+    color: var(--main-color);
+}
+
+
+
+
+
+.pricing{
+    padding:50px 0;
+}
+
+.pricing ul li a{
+    color: var(--main-color);
+}
+
+.pricing-table {
+    text-align: center;
+}
+.pricing-table .card {
+    margin: 20px;
+}
+.pricing-table .card-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+.pricing-table .card-body {
+    padding: 30px;
+}
+.pricing-table .price {
+    font-size: 32px;
+    font-weight: bold;
+}
+.pricing-table .frequency {
+    font-size: 14px;
+    color: #666;
+}
+.pricing-table .btn {
+    margin: 10px 0;
+}
+
+
+
+
+
